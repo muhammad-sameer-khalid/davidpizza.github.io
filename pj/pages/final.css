@@ -1,0 +1,85 @@
+.menu-info-navbar {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(238, 238, 238);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 0px 0px 10px 10px;
+    position: sticky;
+    top: 0;
+    z-index: 989;
+}
+
+.menu-info-navbar ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.menu-info-navbar ul li {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(63, 63, 63);
+    transition: opacity 0.3s;
+    padding: 12px 5px;
+}
+
+.menu-info-navbar ul li a {
+    color: rgb(63, 63, 63);
+    text-decoration: none;
+    padding: 12px 5px;
+}
+
+.menu-info-navbar ul li:hover{
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+}
+.menu-info-navbar ul li.active {
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+.menu-info-navbar ul li a:hover{
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+}
+
+/* Cards */
+.cards-container {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.menu-card, .info-card, .cart-card {
+    background: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Accordion Grid */
+.menu-accordions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.accordion {
+    background: #f5f5f5;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.accordion:hover {
+    background: rgb(255, 115, 0);
+    color: white;
+}
