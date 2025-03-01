@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../img/icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <title>David Pizza</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="home.js" defer>
+    </script>
+</head>
+<body>
+    <div class="bgcolor1">
+    <div class="navbar container">
+        <div class="logo">
+            <img src="../../img/logo.png" alt="Logo">
+        </div>
+        <div class="hamburger">&#9776;</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li class="hamburger-only"><a href="#">Login</a></li>
+            <li class="hamburger-only"><a href="#">Register</a></li>
+            <li class="user-menu">
+                <span class="user-icon">&#128100;</span>
+                <div class="user-dropdown">
+                    <a href="#">Login</a>
+                    <a href="#">Register</a>
+                </div>
+            </li>
+            <li class="lang-menu">
+                <span class="lang-icon">&#127758;</span>
+                <div class="lang-dropdown">
+                    <a href="#">US English</a>
+                    <a href="#">DE German</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    </div>
+    <!-- slideshow -->
+    <div class="slideshow-container">
+        <img class="slide active" src="../../img/slideshowHome1.jpg" alt="Slide 1">
+        <img class="slide" src="../../img/slideshowHome2.jpg" alt="Slide 2">
+        
+        <div class="delivery-info" id="delivery-info">
+            <p>🚲 Estimated Delivery: 55 Minuten</p>
+            <p>🛍 Estimated Pickup: 25 Minuten</p>
+            <p id="delivery-status" style="display: none;">🟢 Delivery Available</p>
+        </div>
+    </div>
+    <!-- Postal code form -->
+    <section class="order-section">
+        <p class="bouncing-text">Order Now</p>
+        <form class="order-form">
+            <input type="text" placeholder="Enter your postal code here" class="order-input">
+            <button type="button" class="order-btn delivery-btn">Delivery</button>
+            <button type="button" class="order-btn takeaway-btn">Takeaway</button>
+        </form>
+    </section>
+    <section class="download-section">
+        <!-- Left Section -->
+        <div class="app-info">
+            <p class="app-text">Die Davidpizza.de App herunterladen </p><p class="app-text">immer und überall bestellen!</p>
+            <div class="store-buttons">
+                <a href="https://play.google.com/store/apps/details?id=com.de.davids.pizzas" target="_blank">
+                    <img src="../../img/playstore.png" alt="Google Play Store">
+                </a>
+                <a href="https://apps.apple.com/in/app/david-pizza/id1661673512" target="_blank">
+                    <img src="../../img/appstore.png" alt="Apple App Store">
+                </a>
+            </div>
+        </div>
+
+        <!-- Right Section -->
+        <div class="phone-image">
+            <img src="../../img/orderPhone.png" alt="Order Phone">
+        </div>
+    </section>
+    <!-- about us -->
+    <section id="aboutUs">
+        <div class="background-blur"></div> <!-- This div will hold the blurred background -->
+        <div class="content">
+            <h2>A little bit about us and a short story of how we started.</h2>
+            <p>We look forward to welcoming you to our website. Through our years of experience we have been able to determine which high-quality ingredients are best. You will be amazed by our improved baking process. Our menu will fascinate you. We not only have Italian dishes, but also a selection of international specialties. All our meals are completely fresh and prepared with high quality ingredients. Come by yourself and let us convince you. Thanks to our improved baking process, the waiting times are of course very short. You are welcome to have it delivered to your home, just give us a call or simply order online.</p>
+            
+            <div class="link-container">
+                <a href="https://www.google.com/search?tbm=lcl&sxsrf=ACYBGNTm8WmD9Jw52FQoAPl2Q8vrH7lywA:1580811742666&ei=3kU5XourKJHNwAKYmbWQDA&q=david+pizza+&oq=david+pizza+&gs_l=psy-ab.3...23221.25130.0.25437.0.0.0.0.0.0.0.0..0.0....0...1c.1.64.psy-ab..0.0.0....0.7XDowjrTAYg#lrd=0x479855e7e7481483:0xc84bf9e42e2f506c,1,,,&rlfi=hd:;si:14432904189261598828;mv:[[48.98302297731903,9.77403313652918],[48.98266302268097,9.773484663470818]]" target="_blank">Review on Google</a>
+                <a href="tel:079719781303">Call Us</a>
+            </div>
+        </div>
+    </section>
+            <section class="background-transition">
+            <h1>From The Menu</h1>
+            <h2 class="favourites">Chef's Favourites</h2>
+            <section class="from-the-menu">
+            
+            
+            <!-- Image Container -->
+            <div class="image-container">
+                <img src="../../img/p1.png" alt="Dish 1">
+                <img src="../../img/p2.jpg" alt="Dish 2">
+                <img src="../../img/p3.png" alt="Dish 3">
+                <img src="../../img/p4.png" alt="Dish 4">
+                <img src="../../img/p5.png" alt="Dish 5">
+                <img src="../../img/p6.jpg" alt="Dish 6">
+            </div>
+        
+            <!-- Card Slider -->
+            <div class="card-slider">
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <button class="prev-btn" style="width: 1px; height: 1px;">&#10094;</button>
+                        <div class="carousel-track">
+                            <!-- Cards will be dynamically inserted here -->
+                        </div>
+                        <button class="next-btn" style="width: 1px; height: 1px;">&#10095;</button>
+                    </div>
+                </div>
+            </div></section>
+        
+        </section>
+        
+        <div class="info-container">
+            <!-- Left Section - Delivery Time -->
+            <div class="delivery-schedule">
+                <h2><img src="../../img/delivery.svg" alt="Delivery"> Delivery Hours</h2>
+                <ul class="schedule-list">
+                    <li><span>10:30 - 13:45 | 17:00 - 22:45</span> <br> <strong>Monday</strong></li>
+                    <li><span>10:30 - 13:45 | 17:00 - 22:45</span> <br> <strong>Tuesday</strong></li>
+                    <li><span>10:30 - 13:45 | 17:00 - 22:45</span> <br> <strong>Wednesday</strong></li>
+                    <li><span>10:30 - 13:45 | 17:00 - 22:45</span> <br> <strong>Thursday</strong></li>
+                    <li><span>10:30 - 13:45 | 17:00 - 22:30</span> <br> <strong>Friday</strong></li>
+                    <li class="active-day"><span>11:00 - 13:45 | 16:30 - 22:45</span> <br> <strong>Saturday</strong></li>
+                    <li><span>11:00 - 22:30</span> <br> <strong>Sunday</strong></li>
+                </ul>
+            </div>
+    
+            <!-- Right Section - Contact & Location -->
+            <div class="contact-section">
+                <div class="contact-item">
+                    <p>📞</p>
+                    <a href="tel:+4979719781303">07971 9781303</a>
+                </div>
+                <div class="contact-item">
+                    <p>📍</p>
+                    <a href="https://www.google.com/maps/place/Pizza+David/@48.982843,9.771184,17z/data=!3m1!4b1!4m6!3m5!1s0x479855e7e7481483:0xc84bf9e42e2f506c!8m2!3d48.982843!4d9.7737589!16s%2Fg%2F11hzzf3jgf?entry=ttu&g_ep=EgoyMDI1MDIyNi4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                        David Pizza, Wirkestraße 19, 74405 Gaildorf
+                    </a>
+                </div>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.5520838663!2d9.7694!3d49.0046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479855e7e7481483%3A0xc84bf9e42e2f506c!2sPizza%20David!5e0!3m2!1sen!2sde!4v1700000000000"
+                        width="100%" height="200" style="border:0;" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <h2>David Pizza</h2>
+            <h3>Connect</h3>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/Pizza.David.Gaildorf/" target="_blank">
+                    <img src="../../img/facebook.png" alt="Facebook" />
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="../../img/instagram.png" alt="Instagram" />
+                </a>
+                <a href="https://www.youtube.com/" target="_blank">
+                    <img src="../../img/youtube.png" alt="YouTube" />
+                </a>
+            </div>
+        </div>
+    
+        <div class="footer-columns">
+            <div class="column imprint">
+                <h4>Imprint</h4>
+                <p>Gagandeep Singh</p>
+                <p>Pizza David</p>
+                <p>Wirkerstr. 19</p>
+                <p>74405 Gaildorf</p>
+                <p><a href="mailto:info@davidpizza.de">info@davidpizza.de</a></p>
+            </div>
+    
+            <div class="column links">
+                <h4>Service</h4>
+                <ul>
+                    <li><a href="terms.html">Terms and Conditions</a></li>
+                    <li><a href="agb.html">AGB</a></li>
+                    <li><a href="privacyStatement.html">Privacy Statement</a></li>
+                    <li><a href="imprint.html">Imprint</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="Home.html#aboutUs">About Us</a></li>
+                    <li><a href="ContactUs">Contact Us</a></li>
+                    <li><a href="#">Reviews</a></li>
+                    <li><a href="#">Admin login</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- Modal Container -->
+<div id="imageModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImage">
+</div>
+
+</body>
+</html>
